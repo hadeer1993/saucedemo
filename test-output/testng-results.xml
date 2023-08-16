@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T11:48:27 EEST" name="Default suite" finished-at="2023-08-16T11:48:43 EEST" duration-ms="15677">
+    <groups>
+    </groups>
+    <test started-at="2023-08-16T11:48:27 EEST" name="Default test" finished-at="2023-08-16T11:48:43 EEST" duration-ms="15677">
+      <class name="Tests.OverViewTest">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:Tests.OverViewTest@5d7148e2]" started-at="2023-08-16T11:48:27 EEST" name="startdriver" finished-at="2023-08-16T11:48:39 EEST" duration-ms="12277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="InformationScreen()[pri:0, instance:Tests.OverViewTest@5d7148e2]" started-at="2023-08-16T11:48:39 EEST" name="InformationScreen" finished-at="2023-08-16T11:48:42 EEST" depends-on-methods="Tests.TestBases.startdriver" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InformationScreen -->
+        <test-method signature="UserAddInfo()[pri:1, instance:Tests.OverViewTest@5d7148e2]" started-at="2023-08-16T11:48:42 EEST" name="UserAddInfo" finished-at="2023-08-16T11:48:43 EEST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserAddInfo -->
+        <test-method is-config="true" signature="takescreenshotonfail(org.testng.ITestResult)[pri:0, instance:Tests.OverViewTest@5d7148e2]" started-at="2023-08-16T11:48:43 EEST" name="takescreenshotonfail" finished-at="2023-08-16T11:48:43 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserAddInfo status=SUCCESS method=OverViewTest.UserAddInfo()[pri:1, instance:Tests.OverViewTest@5d7148e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotonfail -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:Tests.OverViewTest@5d7148e2]" started-at="2023-08-16T11:48:43 EEST" name="stopdriver" finished-at="2023-08-16T11:48:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- Tests.OverViewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
